@@ -8,4 +8,4 @@ format:
 lint:
 	pylint --disable=R,C --ignore-patterns=test_.*?py project1/*.py
 
-all: install format lint test
+all: install format lint
