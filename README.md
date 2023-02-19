@@ -16,6 +16,8 @@ http://flaskapiproj1-env.eba-sx2q5cpp.us-east-2.elasticbeanstalk.com/nqueens/4
 Change the number in url to modify the number of queens
 
 # Project 2 Summary:
+try this: http://18.222.52.183:3000/cal/1+2*12-9
+
 ### Tutorial
 * Tutorial: https://towardsdatascience.com/deploying-a-docker-container-with-ecs-and-fargate-7b0cbc9cd608
 * AWS ECR: https://us-east-2.console.aws.amazon.com/ecr/repositories?region=us-east-2
@@ -23,7 +25,7 @@ Change the number in url to modify the number of queens
 * install aws cli: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 ### docker run:
-* docker run: docker container run -d -p 3000:3000 cirunzhang/ids721-python-flask:0.0.1.RELEASE 
+* docker run: docker container run -d -p 3000:3000 public.ecr.aws/s5p1t7g5/ids721-cirun:latest
 
 ### docker hub:
 * docker build: docker build -t cirunzhang/ids721-python-flask:0.0.1.RELEASE ./
