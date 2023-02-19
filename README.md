@@ -16,6 +16,7 @@ http://flaskapiproj1-env.eba-sx2q5cpp.us-east-2.elasticbeanstalk.com/nqueens/4
 Change the number in url to modify the number of queens
 
 # Project 2 Summary:
+In this project, I built a simple calculator API service with flask and docker. And pushed the image to AWS ECR and deployed to AWS ECS fargate cluster.
 try this: http://18.222.52.183:3000/cal/1+2*12-9
 
 ### Tutorial
