@@ -39,3 +39,19 @@ try this: http://18.222.52.183:3000/cal/1+2*12-9
 * docker push public.ecr.aws/s5p1t7g5/ids721-cirun:latest
 
 
+
+# Project 3 Summary:
+
+A salary data query CLI tool.
+
+This project used Azure Databricks and Click to creates a CLI tool for getting the salary data. The data was imported from kaggle open-souce datasets and imported to a single-cluster databricks server.
+
+How to use this CLI:
+
+get-average-salary  Get average salary
+
+get-max-salary      Get the highest salary
+
+get-min-salary      Get the lowest salary
+
+get-salary          Get salary

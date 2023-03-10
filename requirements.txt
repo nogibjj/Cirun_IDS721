@@ -5,3 +5,7 @@ click
 pytest-cov
 ipython
 flask
+databricks
+databricks-cli
+databricks-sql-connector
+databricks-connect==10.4.*
