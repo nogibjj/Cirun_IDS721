@@ -48,7 +48,7 @@ A salary data query CLI tool.
 This project used Azure Databricks and Click to creates a CLI tool for getting the salary data. The data was imported from kaggle open-souce datasets and imported to a single-cluster databricks server.
 
 How to use this CLI:
-
+```python
 get-average-salary  Get average salary
 
 get-max-salary      Get the highest salary
@@ -56,3 +56,4 @@ get-max-salary      Get the highest salary
 get-min-salary      Get the lowest salary
 
 get-salary          Get salary
+```
