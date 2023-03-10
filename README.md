@@ -50,10 +50,14 @@ This project used Azure Databricks and Click to creates a CLI tool for getting t
 How to use this CLI:
 ```python
 get-average-salary  Get average salary
-
 get-max-salary      Get the highest salary
-
 get-min-salary      Get the lowest salary
-
 get-salary          Get salary
+```
+
+Example:
+```bash
+@zhangcirun ➜ /workspaces/Cirun_IDS721/project3 (main) $ ./main.py get-salary --year=2021
+Getting salary data for year:  2021
+99853.79262672811 USD/Year
 ```
