@@ -68,3 +68,20 @@ A severless image recognition service using AWS Lambda, Rekognition, SNS, S3, an
 
 Basically when the user uploads a image to the S3 bucket, the lamba function will be trigged and process the image with AWS rekognition, and send back the result by SNS.
 
+Example results:
+```bash
+Food - 99.10167694091797%
+Fruit - 99.10167694091797%
+Plant - 99.10167694091797%
+Produce - 99.10167694091797%
+Blade - 99.04008483886719%
+Cooking - 99.04008483886719%
+Knife - 99.04008483886719%
+Sliced - 99.04008483886719%
+Weapon - 99.04008483886719%
+Kiwi - 92.32963562011719%
+Apple - 75.17332458496094%
+Animal - 55.790283203125%
+Bird - 55.790283203125%
+Kiwi Bird - 55.790283203125%
+```
