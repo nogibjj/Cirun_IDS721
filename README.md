@@ -61,3 +61,10 @@ Example:
 Getting salary data for year:  2021
 99853.79262672811 USD/Year
 ```
+
+
+# Project 4 Summary:
+A severless image recognition service using AWS Lambda, Rekognition, SNS, S3, and Python.
+
+Basically when the user uploads a image to the S3 bucket, the lamba function will be trigged and process the image with AWS rekognition, and send back the result by SNS.
+
