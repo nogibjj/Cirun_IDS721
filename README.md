@@ -90,3 +90,5 @@ Kiwi Bird - 55.790283203125%
 Team members: Cirun Zhang(cz174)
 
 website link: http://3.16.149.204:3000/
+
+To run it locally: ```docker run -d -p 3000:3000 af81b372178c```
